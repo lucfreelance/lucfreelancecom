@@ -1,23 +1,31 @@
 ---
-title: Construcción general
+title: Construcción General
 publishDate: 2020-03-04 00:00:00
 img: /assets/_construccion-general.jpg
-img_alt: Pearls of silky soft white cotton, bubble up under vibrant lighting
+img_alt: Obreros levantando una construcción a puro ladrillo.
 description: |
 tags:
-  - Arquitecto
-  - Ingeniero civil
-  - Diseñador Forestal
+  - Maestros de obras
+  - Constructores
+  - Obreros
 ---
 
-## Ofrecemos estos entre otros servicios en construcción general:
+#### Algunos ejemplos de trabajos a realizar.
 
 - Jardines
-- Estructuras
-- Fundiciones
 - Áreas sociales
 - Diseño de parques
-- Construye tu casa
+- Cocinas
+- Baños
+- Anexos
+- Pisos
+- Techos
+- Andenes
+- Caminos
+- Cercados
+- Sumideros
+
+#### Cuéntanos tu plan y partiremos desde ahí.
 
 Somos constructores generales, trabajamos con altos estándares de calidad, materiales de primera y criterio profesional. Aplicamos estándares de sismorresistencia.
 

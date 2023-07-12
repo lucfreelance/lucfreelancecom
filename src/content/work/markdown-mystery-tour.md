@@ -1,25 +1,26 @@
 ---
-title: Montaje, mantenimiento y reparación de aparatos
+title: Consulta tu proyecto
 publishDate: 2019-10-02 00:00:00
-img: /assets/_electrodomesticos.jpg
-img_alt: Soft pink and baby blue water ripples together in a subtle texture.
+img: /assets/_instalaciones.jpg
+img_alt: Técnicos instalando o realizando mantenimiento de una pieza mobiliaria exterior.
 description: |
 
 tags:
-  - Técnico línea blanca
-  - Técnico electricista
-  - Técnico de aire acondicionado
+  - Cotiza
+  - Construye
+  - Es posible?
 ---
 
-## Ofrecemos estos entre otros servicios en montaje, mantenimiento y reparación de electrodomésticos:
+### Cotiza tu servicio
 
-- Aires acondicionados
-- Cuartos fríos
-- Instalación de electrodomésticos
-- Técnico de electrodomésticos (de Línea blanca)
-- Instalación de gasodomésticos
-- Técnico de gasodomésticos
+Te invitamos a contactarnos via celular, WhatsApp o redes sociales para cotizar el trabajo que necesitas o tienes en mente. O si prefieres, escribe para que te contactemos de vuelta
 
 Arreglamos dispositivos de línea blanca y otros artefactos electrónicos en el hogar u oficina, manejados con buenas manos. En caso necesario daremos instrucciones de administración y mantenimiento.
 
-#### Nuestro enfoque laboral hace a cada trabajo muy importante; se trata de tu satisfacción!
+#### Construye
+
+Dinos lo que tienes en mente para construir, para hacer un estudio adecuado antes de hacer una cotización. Envíanos algunas imágenes y notas... "Cocinemos" una buena idea juntos.
+
+### Es posible?
+
+Si algún servicio no listado lo necesitas quieres preguntarnos si podemos hacerlo por ti. Llena el formulario y te estaremos contactando de vuelta.

@@ -1,35 +1,28 @@
 ---
-title: Obra blanca
+title: Obra Blanca
 publishDate: 2019-12-01 00:00:00
 img: /assets/_obra-blanca.jpg
-img_alt: A bright pink sheet of paper used to wrap flowers curves in front of rich blue background
+img_alt: Pintor de brocha gorda pintando una bonita fachada.
 description: |
 tags:
   - Pintor
-  - Estucador
-  - Marquetero
-  - Maestro de obra
-  - Diseñador de interiores
+  - Enchapador
+  - Instalador
 ---
 
 ## Ofrecemos estos, entre otros servicios en obra blanca:
 
 - Pintura
-- Estuco
+- Estucado
 - Pisos
 - Fachadas
-- Cocinas (Gabinetes, tragahumos)
-- Baños (Divisiones)
+- Gabinetes de cocina
+- Divisiones de baño
+- Tragahumos
 - Salas
-- Anexos
-- Techos
-- Andenes
-- Caminos
-- Cercados
-- Sumideros
 - Vitrinas
 - Vitrales
 
-Realizamos todo lo que una construcción necesita para poder convertirse en un hogar o lugar de trabajo y esparcimiento de primer nivel. Nuestro profesionalismo y buen gusto quedará reflejado en todo lo que nos encargues.
+Realizamos remodelaciones, todo lo que una construcción necesita para poder llevar al siguiente nivel tu hogar, comercio, industria, sitio de esparcimiento o donde quieras. Somos profesionales y con buen gusto que quedará reflejado en lo que nos encargues.
 
 #### Hacemos un excelente trabajo desde la planificación hasta la ejecución.
