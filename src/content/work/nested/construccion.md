@@ -6,7 +6,6 @@ img_alt: Obreros levantando una construcción a puro ladrillo.
 description: |
 tags:
   - Maestros de obras
-  - Constructores
   - Obreros
 ---
 
