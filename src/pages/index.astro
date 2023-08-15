@@ -27,60 +27,60 @@ const projects = (await getCollection('work'))
 ---
 
 <BaseLayout>
-	<div class="stack gap-20 lg:gap-48">
-		<div class="wrapper stack gap-8 lg:gap-20">
-			<header class="hero">
-				<Hero
-					title="Servicons Cali te da la bienvenida"
-					tagline="En Servicons Cali ofrecemos servicios de construcción, obra blanca y mantenimiento."
-					align="start"
-				>
-					<div class="roles">
-						<Pill><Icon icon="terminal-window" size="1.33em" /> Construcción</Pill>
-						<Pill><Icon icon="pencil-line" size="1.33em" /> Obra blanca</Pill>
-						<Pill><Icon icon="strategy" size="1.33em" /> Mantenimiento</Pill>
-					</div>
-				</Hero>
+    <div class="stack gap-20 lg:gap-48">
+        <div class="wrapper stack gap-8 lg:gap-20">
+            <header class="hero">
+                <Hero
+                    title="Delta Daniel: Where Ideas Come to Life as Apps"
+                    tagline="Welcome to Delta Daniel, where we transform your ideas into innovative applications."
+                    align="start"
+                >
+                    <div class="roles">
+                        <Pill><Icon icon="brain" size="1.33em" /> Creativity</Pill>
+                        <Pill><Icon icon="mobile" size="1.33em" /> App Development</Pill>
+                        <Pill><Icon icon="lightbulb" size="1.33em" /> Innovation</Pill>
+                    </div>
+                </Hero>
 
-				<img
-					alt="Servicons - Construcción, obra blanca y mantenimiento."
-					width="480"
-					height="620"
-					src="/assets/portrait.jpg"
-				/>
-			</header>
+                <img
+                    alt="Delta Daniel: Turning Ideas into Innovative Apps."
+                    width="480"
+                    height="620"
+                    src="/assets/portrait.jpg"
+                />
+            </header>
 
-			<Skills />
-		</div>
+            <Skills />
+        </div>
 
-		<main class="wrapper stack gap-20 lg:gap-48">
-			<section class="section with-background with-cta">
-				<header class="section-header stack gap-2 lg:gap-4">
-					<h3>Nuestro portafolio</h3>
-					<p>Echa un vistazo a la lista completa de servicios.<br>Además puedes ver muestras de trabajo nuestras.</p>
-				</header>
+        <main class="wrapper stack gap-20 lg:gap-48">
+            <section class="section with-background with-cta">
+                <header class="section-header stack gap-2 lg:gap-4">
+                    <h3>Our Approach</h3>
+                    <p>At Delta Daniel, we merge creativity and technology to bring your ideas to life in the form of unique applications.</p>
+                </header>
 
-				<div class="gallery">
-					<Grid variant="offset">
-						{
-							projects.map((project) => (
-								<li>
-									<PortfolioPreview project={project} />
-								</li>
-							))
-						}
-					</Grid>
-				</div>
+                <div class="gallery">
+                    <Grid variant="offset">
+                        {
+                            projects.map((project) => (
+                                <li>
+                                    <PortfolioPreview project={project} />
+                                </li>
+                            ))
+                        }
+                    </Grid>
+                </div>
 
-				<div class="cta">
-					<CallToAction href="/work/">
-						Servicios
-						<Icon icon="arrow-right" size="1.2em" />
-					</CallToAction>
-				</div>
-			</section>
+                <div class="cta">
+                    <CallToAction href="/work/">
+                        View More Apps
+                        <Icon icon="arrow-right" size="1.2em" />
+                    </CallToAction>
+                </div>
+            </section>
 
-			<Testimonials />
+            <Testimonials />
 
 			<!-- <section class="section with-background bg-variant">
 				<header class="section-header stack gap-2 lg:gap-4">

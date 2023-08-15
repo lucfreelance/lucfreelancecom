@@ -4,9 +4,9 @@ import ThemeToggle from './ThemeToggle.astro';
 
 /** Main menu items */
 const textLinks: { label: string; href: string }[] = [
-	{ label: 'Inicio', href: '/' },
-	{ label: 'Servicios', href: '/work/' },
-	{ label: 'Nosotros', href: '/about/' },
+	{ label: 'Home', href: '/' },
+	{ label: 'Deltas', href: '/work/' },
+	{ label: 'About', href: '/about/' },
 ];
 
 const iconLinks: { label: string; href: string; icon: IconProps['icon'] }[] = [
@@ -14,17 +14,16 @@ const iconLinks: { label: string; href: string; icon: IconProps['icon'] }[] = [
 	// { label: 'GitHub', href: 'https://github.com/me', icon: 'github-logo' },
 	// { label: 'CodePen', href: 'https://codepen.io/me', icon: 'codepen-logo' },
 	// { label: 'dribbble', href: 'https://dribbble.com/me', icon: 'dribbble-logo' },
-	{ label: 'Twitter', href: 'https://twitter.com/serviconscali/', icon: 'twitter-logo' },
-	{ label: 'Instagram', href: 'https://www.instagram.com/serviconscali/', icon: 'instagram-logo' },
-	{ label: 'YouTube', href: 'https://www.youtube.com/channel/UCozmsnQBNkBTsPG2J1pms8g', icon: 'youtube-logo' },
+	{ label: 'Twitter', href: 'https://twitter.com/deltadanielproject/', icon: 'twitter-logo' },
+	{ label: 'Instagram', href: 'https://www.instagram.com/deltadanielproject/', icon: 'instagram-logo' },
+	{ label: 'YouTube', href: 'https://www.youtube.com/channel/deltadanielproject', icon: 'youtube-logo' },
 ];
 ---
 
 <nav>
 	<div class="menu-header">
 		<a href="/" class="site-title">
-			<Icon icon="terminal-window" color="var(--accent-regular)" size="1.6em" gradient />
-			Servicons
+			Delta Daniel
 		</a>
 		<menu-button>
 			<template>
