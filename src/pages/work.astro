@@ -14,25 +14,26 @@ const projects = (await getCollection('work')).sort(
 ---
 
 <BaseLayout
-	title="Servicios | Servicons"
-	description="Mejoramos la vida de personas que contratan nuestros servicios"
+    title="Services | Delta Daniel"
+    description="Enhancing the lives of people who use our services"
 >
-	<div class="stack gap-20">
-		<main class="wrapper stack gap-8">
-			<Hero
-				title="Aquí nuestra oferta de servicios."
-				tagline="Servicio constante durante todo el año."
-			/>
-			<Grid variant="offset">
-				{
-					projects.map((project) => (
-						<li>
-							<PortfolioPreview project={project} />
-						</li>
-					))
-				}
-			</Grid>
-		</main>
-		<ContactCTA />
-	</div>
+    <div class="stack gap-20">
+        <main class="wrapper stack gap-8">
+            <Hero
+                title="Here's Our Range of Services."
+                tagline="Consistent service all year round."
+            />
+            <Grid variant="offset">
+                {
+                    projects.map((project) => (
+                        <li>
+                            <PortfolioPreview project={project} />
+                        </li>
+                    ))
+                }
+            </Grid>
+        </main>
+        <ContactCTA />
+    </div>
 </BaseLayout>
+
