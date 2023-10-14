@@ -16,7 +16,10 @@
         "titleBar.activeBackground": "#b5b416",
         "titleBar.activeForeground": "#15202b",
         "titleBar.inactiveBackground": "#b5b41699",
-        "titleBar.inactiveForeground": "#15202b99"
+        "titleBar.inactiveForeground": "#15202b99",
+        "files.associations": {
+            "*.mdx": "markdown"
+        }
     },
     "peacock.color": "#b5b416"
 }

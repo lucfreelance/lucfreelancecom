@@ -7,6 +7,8 @@
 ╚══╝╚═╩╩═╩═╝╚══╩╝╚╝
 ```
 
+![React](https://camo.githubusercontent.com/533da8800843b57b91a3227ce7d151ca865a0eeaae675715e209c0092314fa96/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d52656163742d3435623864383f7374796c653d666c61742d737175617265266c6f676f3d7265616374266c6f676f436f6c6f723d7768697465)
+
 A digital project brunch factory of ideas focused on improve life from homes to cities, building apps that enhance lifestyle world to step ahead and invoke for a movement. This is a mobile first initiative, but also multiplatform mostly with Electron. Products from this line concept are focused in provide solutions instead to solve problems.
 
 Online at: [𝓓𝓐𝓣𝓔 𝓞𝓕𝓕](https://dateoff.netlify.app/)
@@ -19,7 +21,7 @@ DATE OFF 👀
 
 All commands are run from the root of the project, from a terminal:
 
-| - `npm create astro@latest -- --template portfolio`                            |
+| - `npm create astro@latest -- --template portfolio` |
 
 | Command                   | Action                                           |
 | :------------------------ | :----------------------------------------------- |
@@ -28,7 +30,8 @@ All commands are run from the root of the project, from a terminal:
 | `npm run build`           | Build your production site to `./dist/`          |
 | `npm run preview`         | Preview your build locally, before deploying     |
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     | 
+| `npm run astro -- --help` | Get help using the Astro CLI                     |
+| `wslview` + FILE-TO-OPEN  | Open file with predeterminated program           |
 
 ## Developer credits
 
@@ -58,3 +61,19 @@ bio_text = get_bio()
 print(bio_text)
 
 ### Astro Starter Kit: Portfolio 🧑‍🚀
+
+# Nice Integrations
+
+---
+
+- to support mdx files format to md files (Failed first try: X fetch failed)
+
+```
+- "files.associations": {
+            "*.mdx": "markdown"
+            }
+```
+
+---
+
+# Nice GuideLines

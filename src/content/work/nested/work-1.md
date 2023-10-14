@@ -2,6 +2,7 @@
 title: Delta 1 - Memory Lane
 publishDate: 2023-08-15 00:00:00
 img: /assets/delta-1.jpg
+featured_img: /assets/delta-1.jpg
 img_alt: Mobile app displaying "Memory Lane" logo.
 description: |
 tags:
