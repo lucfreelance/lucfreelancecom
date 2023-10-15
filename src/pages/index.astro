@@ -1,10 +1,6 @@
 ---
 import { getCollection } from 'astro:content';
-
-// Layout import — provides basic page elements: <head>, <nav>, <footer> etc.
 import BaseLayout from './BaseLayout.astro';
-
-// Component Imports
 import CallToAction from '../components/CallToAction.astro';
 import Grid from '../components/Grid.astro';
 import Hero from '../components/Hero.astro';
@@ -12,8 +8,6 @@ import Icon from '../components/Icon.astro';
 import Pill from '../components/Pill.astro';
 import PortfolioPreview from '../components/PortfolioPreview.astro';
 import Testimonials from '../components/Testimonials.astro';
-
-// Page section components
 import ContactCTA from '../components/ContactCTA.astro';
 import Skills from '../components/Skills.astro';
 
@@ -31,22 +25,22 @@ const projects = (await getCollection('work'))
         <div class="wrapper stack gap-8 lg:gap-20">
             <header class="hero">
                 <Hero
-					title="'Where ideas come to life as Apps'"
-                    tagline="Welcome to Delta Daniel, where we transform your ideas into innovative applications."
+					title="Frontend Web Developer with Backend Basis"
+                    tagline="With tailored skills to make meaningful contributions to both new and ongoing projects."
                     align="start"
                 >
 				<div class="roles">
+					<Pill><Icon icon="terminal-window" size="1.33em" /> Web Development</Pill>
+					<Pill><Icon icon="strategy" size="1.33em" /> Hard Working</Pill>
 					<Pill><Icon icon="pencil-line" size="1.33em" /> Creativity</Pill>
-					<Pill><Icon icon="terminal-window" size="1.33em" /> App Development</Pill>
-					<Pill><Icon icon="strategy" size="1.33em" /> Innovation</Pill>
 				</div>
                 </Hero>
 
                 <img
-                    alt="Delta Daniel: Turning Ideas into Innovative Apps."
+                    alt="Frontend Web Developer with a Backend Foundation."
                     width="480"
                     height="620"
-                    src="/assets/portrait.jpg"
+                    src="/assets/imaginery/portrait.jpg"
                 />
             </header>
 
@@ -56,8 +50,9 @@ const projects = (await getCollection('work'))
         <main class="wrapper stack gap-20 lg:gap-48">
             <section class="section with-background with-cta">
                 <header class="section-header stack gap-2 lg:gap-4">
-                    <h3>Our Approach</h3>
-                    <p>At Delta Daniel, we merge creativity and technology to bring your ideas to life in the form of unique applications.</p>
+                    <h3>Recent Works</h3>
+						<p>I have been building websites for entrepreneurs, using on top technologies to meet client needs. This may include modern paradigms to dicrease server resources, improving speed and security, or build advanced WordPress solutions for marketing oriented businesses. Here some of my recent samples:</p>
+						</p>
                 </header>
 
                 <div class="gallery">
@@ -74,27 +69,24 @@ const projects = (await getCollection('work'))
 
                 <div class="cta">
                     <CallToAction href="/work/">
-                        View more deltas
+                        View more details
                         <Icon icon="arrow-right" size="1.2em" />
                     </CallToAction>
                 </div>
             </section>
 
-            <Testimonials />
-
-			<!-- <section class="section with-background bg-variant">
+			<section class="section with-background bg-variant">
 				<header class="section-header stack gap-2 lg:gap-4">
-					<h3>Mentions</h3>
+					<h3>Education</h3>
 					<p>
-						I have been fortunate enough to recieve praise for my work in several publications. Take
-						a look below to learn more.
+						With a Computer Science approach, previously in digital marketing and advertising. Recently I've been enrolling education programs to grow my skills; from technical training to development. Here's an approach to my educational background: 
 					</p>
 				</header>
 
 				<div class="gallery">
 					<Grid variant="small">
 						{
-							['Medium', 'BuzzFeed', 'The Next Web', 'awwwards.', 'TechCrunch'].map((brand) => (
+							['MOOC by Helsinki University', 'Platzy', 'Udemy', 'SAYA at Hotmart', 'Academia de Dibujo'].map((brand) => (
 								<li class="mention-card">
 									<p>{brand}</p>
 								</li>
@@ -102,7 +94,9 @@ const projects = (await getCollection('work'))
 						}
 					</Grid>
 				</div>
-			</section> -->
+			</section>
+
+            <Testimonials />
 		</main>
 
 		<ContactCTA />
