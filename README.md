@@ -1,44 +1,24 @@
-# DATE OFF
+# LUCFREELANCE
 
-```YMAL
-╔══╗───╔╗───╔══╦═╦═╗
-║╔╗╚╦═╗║╚╦═╦║╔╗║═╣═╣
-║╚╝╔╣╬╚╣╔╣╩╣║╚╝║╔╣╔╝
-╚══╝╚═╩╩═╩═╝╚══╩╝╚╝
+```YAML
+▄▄███▀░░░░░░░░▀▄█▄▄▄▄█▄█▄▄▄▄
+░▀████░░░░░░░▐▄▀█▐█████████▐
+░░▀█▀░░░░░░░░░▄▄▄▄████████░░
+░░░▐░███░░░░░▀████▌░▀██▀░░░░
+░░░░▀███░░░░░░░███▌░░▐▀░░█▀█
+░░░░░▀█▌░░░░░░░░█▌░░░░░░░▀▀▀
+>   https://lucfreelance.com
+>>> Soe Lucas Portfolio💼>>>
 ```
 
-A digital project brunch factory of ideas focused on improve life from homes to cities, building apps that enhance lifestyle world to step ahead and invoke for a movement. This is a mobile first initiative, but also multiplatform mostly with Electron. Products from this line concept are focused in provide solutions instead to solve problems.
 
-Online at: [𝓓𝓐𝓣𝓔 𝓞𝓕𝓕](https://dateoff.netlify.app/)
-
-```vbnet
-DATE OFF 👀
-```
-
-## Nice Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| - `npm create astro@latest -- --template portfolio`                            |
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:3000`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     | 
 
 ## Developer credits
 
 [Lucfreelance](https://github.com/lucfreelance/lucfreelance)
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
-
-### Theme
-
-zapping-zenith
+- Feel free to check [Portfolio documentation](https://docs.astro.build)
+- Or jump into Community [Discord server](https://astro.build/chat)
 
 ### -_- coding: utf-8 -_-
 
@@ -58,3 +38,35 @@ bio_text = get_bio()
 print(bio_text)
 
 ### Astro Starter Kit: Portfolio 🧑‍🚀
+
+## Nice Commands
+
+All commands are run from the root of the project, from a terminal:
+
+| Command                   | Action                                           |
+| :------------------------ | :----------------------------------------------- |
+| `npm install`             | Installs dependencies                            |
+| `npm run dev`             | Starts local dev server at `localhost:3000`      |
+| `npm run build`           | Build your production site to `./dist/`          |
+| `npm run preview`         | Preview your build locally, before deploying     |
+| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
+| `npm run astro -- --help` | Get help using the Astro CLI                     |
+| `wslview` + FILE-TO-OPEN  | Open file with predeterminated program           |
+| :------------------------ | :----------------------------------------------- |
+| - `npm create astro@latest -- --template portfolio` |
+
+# Nice Integrations
+
+---
+
+- to support mdx files format to md files (Failed first try: X fetch failed)
+
+```
+- "files.associations": {
+            "*.mdx": "markdown"
+            }
+```
+
+---
+
+# Nice GuideLines

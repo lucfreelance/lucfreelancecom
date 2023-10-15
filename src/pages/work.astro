@@ -1,12 +1,10 @@
 ---
 import { getCollection } from 'astro:content';
-
-import BaseLayout from '../layouts/BaseLayout.astro';
-
-import ContactCTA from '../components/ContactCTA.astro';
+import BaseLayout from './BaseLayout.astro';
 import PortfolioPreview from '../components/PortfolioPreview.astro';
 import Hero from '../components/Hero.astro';
 import Grid from '../components/Grid.astro';
+import ContactCTA from '../components/ContactCTA.astro';
 
 const projects = (await getCollection('work')).sort(
 	(a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf()
@@ -14,14 +12,14 @@ const projects = (await getCollection('work')).sort(
 ---
 
 <BaseLayout
-    title="Services | Delta Daniel"
-    description="Enhancing the lives of people who use our services"
+    title="Work Showcase"
+    description="Enhancing lives of people who use my services"
 >
     <div class="stack gap-20">
         <main class="wrapper stack gap-8">
             <Hero
-                title="Here's Our Range of Services."
-                tagline="Consistent service all year round."
+                title="Explore Some of my Recent Projects"
+                tagline="Consistent Results Crafted to Match Unique Requirements."
             />
             <Grid variant="offset">
                 {

@@ -1,5 +1,5 @@
 {
-  "name": "dateoff",
+  "name": "lucfreelance",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -10,6 +10,8 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^2.7.0"
+    "@heroicons/react": "^2.0.18",
+    "astro": "^2.7.0",
+    "to-regex-range": "^5.0.1"
   }
 }
